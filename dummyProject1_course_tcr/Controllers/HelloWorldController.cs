@@ -4,9 +4,9 @@ namespace dummyProject1_course_tcr.Controllers
 {
     public class HelloWorldController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "this is the index page!";
+            return View();
         }
 
         public string hello()
