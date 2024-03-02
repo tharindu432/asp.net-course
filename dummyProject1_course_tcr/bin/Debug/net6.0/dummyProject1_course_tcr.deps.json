@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "dummyProject1_course_tcr/1.0.0": {
+        "runtime": {
+          "dummyProject1_course_tcr.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dummyProject1_course_tcr/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
