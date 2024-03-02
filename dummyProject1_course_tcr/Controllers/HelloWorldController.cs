@@ -12,7 +12,14 @@ namespace dummyProject1_course_tcr.Controllers
             return View(doggy);
         }
 
+
+        public IActionResult Create()
+        {
+            return View();
+        }
         public string hello()
+
+
         {
             return "who's there!?";
         }
