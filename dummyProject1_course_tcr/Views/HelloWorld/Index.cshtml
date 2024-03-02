@@ -1,4 +1,6 @@
-﻿@*
+﻿@model dummyProject1_course_tcr.Models.DogViewModel
+
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -7,3 +9,6 @@
 <h1>hello world! </h1>
 
 <p>This is the index page of the hello world controller </p>
+
+<h4>a DOG NAME @Model.Name say hello</h4>
+<h4>@Model.Name is @Model.Age years old</h4>

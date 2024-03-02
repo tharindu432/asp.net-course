@@ -8,7 +8,8 @@ namespace dummyProject1_course_tcr.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            DogViewModel doggy = new DogViewModel() { Name="THARINDU",Age=23 };
+            return View(doggy);
         }
 
         public string hello()
